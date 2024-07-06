@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-lgt-primary: rgb(218, 224, 238);
+    --color-drk-primary: #1d1f22;
+
+    --h1-size: 4.2rem; 
+    --h2-size: 1.412rem; 
+    --h3-size: 1.236rem; 
+
+    --p-size: .9rem;
+
+    --h1-weight: 400; 
+
+    --h1-line-height: 0.9; 
+    --h2-line-height: 1.1; 
+
+    --h1-letter-spacing: -0.03em;
+
+    --gap-padding: clamp(1.5em, 4vw, 2.5em);
+    --section-padding: clamp(5em, 21vh, 12em);
+}
+
+h1 {
+    font-size: var(--h1-size);
+}
+h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+}
